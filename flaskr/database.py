@@ -14,10 +14,10 @@ def init_db(app):
     seeder = FlaskSeeder()
     seeder.init_app(app, db)
 
-    # import flaskr.model.pais
-    # import flaskr.model.estado
-    # import flaskr.model.cidade
-    # import flaskr.model.endereco
-    # import flaskr.model.pessoa
+    import flaskr.model.pais
+    import flaskr.model.estado
+    import flaskr.model.cidade
+    import flaskr.model.endereco
+    import flaskr.model.pessoa
 
     db.create_all(app=app)
