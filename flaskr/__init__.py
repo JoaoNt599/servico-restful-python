@@ -16,4 +16,5 @@ def create_app():
     app.register_error_handler(NoResultFound, handle_errors.handle_noresultfound_exception)
     app.register_error_handler(404, handle_errors.handle_404)
 
-    return app
+    return
+
